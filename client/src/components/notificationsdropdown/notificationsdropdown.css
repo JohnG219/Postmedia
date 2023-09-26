@@ -1,0 +1,79 @@
+.notificationsDropdown {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 250px;
+  top: 40px;
+  right: 10px;
+  max-height: 300px; 
+  overflow-y: auto;
+}
+
+.notificationItem {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.notificationProfilePicture {
+  width: 33x;
+  height: 33px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 8px;
+  display: inline-block;
+  position: relative;
+  object-fit: cover;
+  }
+
+  .postcenttel {
+    display: inline-block;
+    position: relative;
+  }
+  #nameuseeer {
+    color: green;
+  }
+
+.notificationItemContent {
+  display: inline-block;
+  position: relative;
+}
+
+.donthave {
+  height: 40px;
+  text-align: center;
+  cursor: default;
+}
+#parapgr {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.markAllAsReadButton {
+  background-color: transparent;
+  text-align: center;
+  border-style: none;
+  margin-bottom: 13px;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.markAllAsReadButton:hover {
+  color: red;
+}
+.elementmarkaasread {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.topbarIconBadgg123 {
+  display: block;
+  font-size: 1px;
+  color: white;
+}

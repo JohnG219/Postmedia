@@ -1,0 +1,103 @@
+.editProfile {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+  }
+  
+  
+  .editProfile h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .editProfileForm {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .editProfileItem {
+    margin-bottom: 10px;
+  }
+
+ .cloudicon {
+  color: #60A3D9;
+  margin-right: 5px;
+  cursor: pointer;
+ }
+ 
+
+ .disabledInput {
+  background-color: #d9d9d9;
+  cursor: not-allowed;   
+}
+
+.passwordInput {
+  position: relative;
+}
+
+.passwordIcons {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  color: #0056b3;
+  cursor: pointer;
+}
+  
+  .editProfileItem label {
+    font-weight: bold;
+  }
+  
+  .editProfileItem input[type="text"],
+  .editProfileItem input[type="password"],
+  .editProfileItem select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .previewProfilePicture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+  }
+  
+  .editProfileButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+
+  .closeButton {
+    cursor: pointer;
+  }
+  .closeButton:hover {
+    color: red;
+  }
+  
+  .editProfileButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .editProfileButton:hover {
+    background-color: #0056b3;
+  }
+  

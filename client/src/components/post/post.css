@@ -1,0 +1,319 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   margin-top: 10px;
+}
+.commentinline {
+  line-break: normal;
+  margin-left: 28%;
+}
+
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    cursor: pointer;
+   /* border-bottom: 1px dashed gray;  */
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.postTopRight {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.deleteConfirmation.active {
+  opacity: 1; 
+  pointer-events: auto; 
+}
+
+.deleteConfirmText {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.deleteConfirmButtons {
+  margin-right: 65px;
+  position: absolute;
+  display: flex;
+}
+
+.deleteConfirmButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.postCommentInteraction {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.postCommentInteraction input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+}
+
+.postCommentInteraction button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 6px 12px;
+  cursor: pointer;
+  height: 32px;
+  display: inline-block;
+}
+.comment {
+  margin-top: 5px;
+  border-radius: 4px;
+  position: relative;
+}
+.comment {
+  margin-top: 5px;
+  border-radius: 4px;
+  position: relative;
+  min-height: 38px;
+}
+
+.deleteCommentIcon {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: red;
+}
+
+.comment:hover .deleteCommentIcon {
+  display: block;
+  opacity: 1;
+}
+
+.commentProfileImg {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+
+
+.likedUsers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.scrollable-contents123 {
+  max-height: 80vh; 
+  overflow-y: auto; 
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.scrollable-contents123 {
+  max-height: 300px; 
+  overflow-y: auto;
+}
+
+.likedUser {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 7px;
+}
+
+.likedUserImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.likedUsername {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.likedUsers:not(.active) {
+  display: none;
+}
+
+#likedby {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  margin-bottom: 7px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.closeIconlikeuser {
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+}
+.closeIconlikeuser:hover {
+  color: red;
+}
+
+.closeIconlikeuser > svg {
+  width: 24px; 
+  height: 24px; 
+}
+
+.replyProfileImg {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.postReplies {
+  margin-top: 7px;
+ margin-left: 30px;
+}
+
+.postReplyContent {
+  padding: 10px;
+}
+
+.postReplyInteraction {
+  margin-left: 37px;
+}
+
+.addreply {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  height: 22px;
+  cursor: pointer;
+}
+
+.deleteReplyIcon {
+  color: red;
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+}
+
+
+
+.replyhovv {
+  background-color: transparent;
+  border-style: none;
+}
+.replyhovv:hover {
+  cursor: pointer;
+  color: #40E0D0;
+}
+
+.commentContent {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.repliestoggle {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.repliestonggle {
+  cursor: pointer;
+  color: #40E0D0;
+}
+
+.replyCount {
+  font-size: 12px;
+}

@@ -1,0 +1,106 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginLeft1,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLeft1 {
+  margin-bottom: 65px;
+}
+
+.loginLogo1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+}
+
+.loginDesc1 {
+  font-size: 24px;
+}
+
+.loginBox1{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 355px;
+    margin-left: 25%;
+}
+.timeoutActive {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+.loginBox1.timeoutActiveForm {
+  opacity: 0.6; 
+  pointer-events: none;
+  cursor: not-allowed; 
+}
+
+
+.loginInput{
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.worldpeoples {
+  height: 250px;
+  width: 250px;
+  align-items: center;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.loginRegisterButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
